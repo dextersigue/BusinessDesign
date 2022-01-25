@@ -49,16 +49,17 @@ html{
 }
 
 .btn{
-    margin: 0 1rem 0 0;
+    margin: .4rem 1rem 0 0;
     background-color: black;
     color: #fff;
     cursor: pointer;
     padding: 0.5rem;
+    border: none;
+    
 }
 
 .btn--black{
-    font-weight: 600;
-    width: 8vw;
+    width: 100%;
 }
 
 .main__banner{
@@ -103,7 +104,7 @@ span{
 }
 
 .hero__header{
-   width: 90vw;
+   width: 80vw;
    margin: 4rem 0 0 0;
 }
 
@@ -118,6 +119,59 @@ span{
     margin: 1rem 0 0 0;
     line-height: 3rem;
 }
+
+.hero__header p::after{
+    content:"";
+    bottom:-9rem;
+    left: 34rem;
+    width: 50%;
+    height: .2rem;
+    position: absolute;
+    background-color: gray;
+    
+}
+
+.hero__col1{
+    display: flex;
+    margin: 8rem 0 0 20rem;
+}
+
+.hero__row1{
+    width: 60vw;
+}
+
+.hero__row1 h2{
+    font-size: 1rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.hero__row1 h3{
+    font-size: 2rem;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.hero__row1 p{
+    font-size: 1.5rem;
+    width: 90% ;
+
+}
+
+.hero__row1 .btn{
+    margin:  2rem 0 0 0;
+}
+
+.hero__row2 img{
+  width: 70%;
+  height: 40%;
+  display: block;
+}
+
+.hero__col2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
 
 
 
