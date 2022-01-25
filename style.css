@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+.main{
+    margin: 1rem 0 0 0;
+    width: 100%;
+}
+
+.main__logo{
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 0 0 0 1rem
+}
+
+.container{
+   width: 80%;
+   max-width: 120rem;
+   margin: 0 auto;
+}
+
+.main__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__nav{
+    width: 100%;
+    padding: 1rem 0 0 1rem;
+}
+
+.main__nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.main__nav ul li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: black;
+    padding: 1rem;
+}
+
+.btn{
+    margin: 0 1rem 0 0;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.main__banner{
+    background-image: url(images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 1rem 0 0 0;
+}
+
+.main__bannercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%   
+}
+
+.main__bannercontainer h1{
+    color: #fff;
+    font-size: 5rem;
+}
+
+.main__bannercontainer p{
+    color: #fff;
+    font-size: 1.8rem;   
+}
+
+.main__bannercontainer input[type="button"]{
+    background-color: #fff;
+    margin: 2rem 0 0 0;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+}
+
+/*----------- hero section----------------- */
+
+span{
+    display: block;
+}
+
+.hero__header{
+   width: 90vw;
+   margin: 4rem 0 0 0;
+}
+
+.hero__header h2{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.hero__header p{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0 0 0;
+    line-height: 3rem;
+}
+
+
+
+
+
