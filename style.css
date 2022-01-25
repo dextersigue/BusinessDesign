@@ -140,7 +140,7 @@ span{
 }
 
 .hero__row1{
-    width: 300vw;
+    width: 200vw;
 }
 
 .hero__row1 h2{
@@ -155,7 +155,7 @@ span{
 
 .hero__row1 p{
     font-size: 1.5rem;
-    width: 90%;
+    width: 17vw;
 }
 
 .hero__row1 .btn{
@@ -163,38 +163,100 @@ span{
 }
 
 .hero__row2 img{   
-    width: 90%;
-    height: 40%;
+    width: 30vw;
+    height:40%;
+    margin: 0 20rem 0 0;
 }
 
-.hero__row4{
-    width: 60vw;
+
+.hero__col1{
+    display: flex;
+    margin: 8rem 0 0 20rem;
 }
 
-.hero__row4 h2{
+
+.hero__col2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80vw;
+    margin: -32rem 0 0 0;
+}
+
+.hero__row4 img{
+    width: 70%;
+    height: 100%;
+    margin: 0 0 0 20rem;
+}
+
+.hero__row3{
+    width: 130vw;
+    margin: 0 0 0 8rem;
+}
+
+.hero__row3 h2{
     font-size: 1rem;
     margin: 2rem 0 1rem 0;
 }
 
-.hero__row4 h3{
+.hero__row3 h3{
     font-size: 2rem;
     margin: 1.5rem 0 1rem 0;
 }
 
-.hero__row4 p{
+.hero__row3 p{
+    font-size: 1.5rem;
+    width: 18vw;
+}
+
+.hero__row3 .btn{
+    margin:  2rem 0 0 0;
+}
+
+/*------------- article section --------------*/
+
+.article__wrapper{
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.article__header{
+    text-align: center;
+    margin: 6rem 0 0 0 ;
+    flex: 1 1 0;
+}
+
+.article__header h2{
+    font-size: 1rem;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.article__header h3{
+    font-size: 2rem;
+    margin: 1rem 0 2rem 0;
+}
+
+figcaption{
+    font-size: 1.8rem;
+    margin: 0 0 2rem 0;
+}
+
+.article__wrapper p{
+    line-height: 2rem;
     font-size: 1.5rem;
     width: 90%;
 }
 
-.hero__row4 .btn{
-    margin:  2rem 0 0 0;
+footer{
+    background-color: gray;
+    padding: 5rem;
+    align-items: center;
+    margin: 7rem 0 0 0;
 }
 
 
-.hero__row3 img{   
-    width: 90%;
-    height: 40%;
-}
+
+
 
 
 
