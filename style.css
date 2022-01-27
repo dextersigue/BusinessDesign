@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+   
 }
 
 html{
     font-size: 62.5%;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main{
@@ -28,6 +31,7 @@ html{
 .main__header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .main__nav{
@@ -104,31 +108,23 @@ span{
 }
 
 .hero__header{
-   width: 80vw;
-   margin: 4rem 0 0 0;
+   margin: 4rem 0;
+   text-align: center;
+}
+
+.hero .divider{
+    height: 0.2rem;
+    background: #eee;
 }
 
 .hero__header h2{
     font-size: 1rem;
-    text-align: center;
 }
 
 .hero__header p{
     font-size: 2rem;
-    text-align: center;
     margin: 1rem 0 0 0;
     line-height: 3rem;
-}
-
-.hero__header p::after{
-    content:"";
-    bottom:-9rem;
-    left: 34rem;
-    width: 50%;
-    height: .2rem;
-    position: absolute;
-    background-color: gray;
-    
 }
 
 .hero__wrapper{
@@ -163,15 +159,13 @@ span{
 }
 
 .hero__row2 img{   
-    width: 30vw;
-    height:40%;
-    margin: 0 20rem 0 0;
+  width:100%;
 }
 
 
 .hero__col1{
     display: flex;
-    margin: 8rem 0 0 20rem;
+
 }
 
 
@@ -248,7 +242,7 @@ figcaption{
 }
 
 footer{
-    background-color: gray;
+    background-color: #f4f4f4;
     padding: 5rem;
     align-items: center;
     margin: 7rem 0 0 0;
