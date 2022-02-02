@@ -19,7 +19,8 @@ html{
 .main__logo{
     font-weight: 800;
     font-size: 2rem;
-    margin: 0 0 0 1rem
+    margin-left: 1rem;
+    text-decoration: underline;
 }
 
 .container{
@@ -113,8 +114,10 @@ span{
 }
 
 .hero .divider{
+    width: 80%;
     height: 0.2rem;
     background: #eee;
+    margin: 0 0 4rem 10rem;
 }
 
 .hero__header h2{
@@ -123,101 +126,103 @@ span{
 
 .hero__header p{
     font-size: 2rem;
-    margin: 1rem 0 0 0;
+    margin-top: 1rem;
     line-height: 3rem;
 }
 
-.hero__wrapper{
+.hero__col{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    width: 80%;
+    margin: 0 0 4rem 10rem;
+}
+
+.hero__row{
+    width: 80%;
+    margin: 3rem 5rem 0 0;
+}
+
+.hero__row h2{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero__row p{ 
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero__row p + p{ 
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+}
+
+.hero__img img{
     width: 100%;
-    margin: 8rem 0 0 0;
-}
-
-.hero__row1{
-    width: 200vw;
-}
-
-.hero__row1 h2{
-    font-size: 1rem;
-    margin: 2rem 0 1rem 0;
-}
-
-.hero__row1 h3{
-    font-size: 2rem;
-    margin: 1.5rem 0 1rem 0;
-}
-
-.hero__row1 p{
-    font-size: 1.5rem;
-    width: 17vw;
-}
-
-.hero__row1 .btn{
-    margin:  2rem 0 0 0;
-}
-
-.hero__row2 img{   
-  width:100%;
+    display: block;
 }
 
 
-.hero__col1{
+
+.hero__col--reverse{
     display: flex;
-
+    width: 80%;
+    flex-direction: row-reverse ;
+    margin-left:10rem;
 }
 
-
-.hero__col2{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 80vw;
-    margin: -32rem 0 0 0;
+.hero__row--reverse{
+    width: 80%;
+    margin: 4rem 0 0 5rem;
 }
 
-.hero__row4 img{
-    width: 70%;
-    height: 100%;
-    margin: 0 0 0 20rem;
-}
-
-.hero__row3{
-    width: 130vw;
-    margin: 0 0 0 8rem;
-}
-
-.hero__row3 h2{
+.hero__row--reverse h2{
     font-size: 1rem;
-    margin: 2rem 0 1rem 0;
+    margin-bottom: 1rem;
 }
 
-.hero__row3 h3{
+.hero__row--reverse p{ 
     font-size: 2rem;
-    margin: 1.5rem 0 1rem 0;
+    margin-bottom: 1rem;
 }
 
-.hero__row3 p{
+.hero__row--reverse p + p{ 
     font-size: 1.5rem;
-    width: 18vw;
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
 }
 
-.hero__row3 .btn{
-    margin:  2rem 0 0 0;
+.hero__img--reverse img{
+    width: 100%;
+    display: block;
 }
+
+.hero__row input{
+    width: 7vw;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.hero__row--reverse input{
+    width: 7vw;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+
 
 /*------------- article section --------------*/
 
 .article__wrapper{
     display: flex;
     margin: 0 auto;
-    width: 50%;
+    width: 65%;
 }
 
 .article__header{
     text-align: center;
     margin: 6rem 0 0 0 ;
-    flex: 1 1 0;
+   
 }
 
 .article__header h2{
@@ -225,33 +230,39 @@ span{
     margin: 1.5rem 0 1rem 0;
 }
 
-.article__header h3{
+.article__header p{
     font-size: 2rem;
     margin: 1rem 0 2rem 0;
 }
 
-figcaption{
-    font-size: 1.8rem;
-    margin: 0 0 2rem 0;
+.article__col h3{
+    width: 20vw;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-.article__wrapper p{
+.article__col span{
+    margin-bottom: 1rem;
+}
+
+.article__col p{
     line-height: 2rem;
     font-size: 1.5rem;
     width: 90%;
 }
 
 footer{
+    width: 90%;
     background-color: #f4f4f4;
     padding: 5rem;
     align-items: center;
-    margin: 7rem 0 0 0;
+    margin-top: 7rem;
 }
 
 footer h2{
     font-size: 2rem;
     text-align: center;
-    margin: 0 0 1rem 0;
+    margin:1rem 0 1rem 0;
 }
 
 footer p{
@@ -260,9 +271,8 @@ footer p{
     line-height: 2.5rem;
 }
 
-footer .btn{   
-   margin: 2rem 0 0 57rem;
-   width: 8vw;
+footer .btn{  
+    
 }
 
 
