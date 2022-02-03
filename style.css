@@ -1,18 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
+/*---- universal selector-------- */
 *{
     padding: 0;
     margin: 0;
-   
+    
 }
 
+/*--------- global selector---------- */
 html{
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*-------- end of global selector-------- */
+
 .main{
-    margin: 1rem 0 0 0;
+    margin-top: 1rem;
     width: 100%;
 }
 
@@ -43,11 +56,9 @@ html{
 .main__nav ul{
     display: flex;
     flex-wrap: wrap;
-    list-style-type: none;
 }
 
 .main__nav ul li a{
-    text-decoration: none;
     font-size: 1.8rem;
     color: black;
     padding: 1rem;
@@ -61,10 +72,6 @@ html{
     padding: 0.5rem;
     border: none;
     
-}
-
-.btn--black{
-    width: 100%;
 }
 
 .main__banner{
@@ -81,7 +88,8 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:100%   
+    height:100%;  
+    text-align: center; 
 }
 
 .main__bannercontainer h1{
@@ -94,9 +102,13 @@ html{
     font-size: 1.8rem;   
 }
 
-.main__bannercontainer input[type="button"]{
-    background-color: #fff;
-    margin: 2rem 0 0 0;
+
+.main__bannercontainer .btn--black{
+    width: 100%;
+    display: block;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
     padding: .5rem;
     border: none;
     cursor: pointer;
@@ -276,6 +288,54 @@ footer .btn{
     font-size: 100% ;
     width: 10%;
 }
+
+@media only screen and (max-width: 64em) and (min-width: 40em){
+    .hero__col{
+     display: block;
+    }
+
+    .hero__row{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-left: 5rem;
+        
+    }
+
+    .hero__row .btn{
+        display: block;
+        margin-bottom: 2rem;
+        width: 20%;
+    }
+
+    .hero__col--reverse{
+        display: block;
+    }
+
+    .hero__row--reverse{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero__row--reverse .btn{
+        display: block;
+        margin-bottom: 2rem;
+        width: 20%;
+    }
+
+
+    footer .btn{
+        display: block;
+        width: 15%;
+        margin-left: 42%;
+    }
+
+
+  }
 
 
 
