@@ -55,7 +55,6 @@ ul{
 
 .main__nav ul{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .main__nav ul li a{
@@ -290,6 +289,12 @@ footer .btn{
 }
 
 @media only screen and (max-width: 64em) and (min-width: 40em){
+  
+
+    .hero__wrapper{
+        display: block;
+    }
+    
     .hero__col{
      display: block;
     }
